@@ -1,0 +1,21 @@
+Bracktracking
+---------------
+it is also one of the problem solving strategy. this strategy usages brute force approach.
+
+
+Brute force approach (try out all possible solution and pick up desired solution)
+
+
+It is not for optimization problem like dynamic programming, backtracking is used when u have multiple solution and u want all those solutions.
+
+
+branch and bound vs backtracking 
+----------------------------------
+
+backtracking follow dfs approach
+branch and bound follow bfs approach
+
+------------------------------
+
+
+

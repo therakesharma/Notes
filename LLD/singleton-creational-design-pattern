@@ -1,0 +1,59 @@
+Singleton Pattern |
+------------------+
+
+This pattern makes sure a class has only one single object in the whole program, and everyone can easily use it.
+
+
+Goals |
+------+
+
+1. Only a single instance (object) of the class exists in the program.
+
+2. Provide a way to access this instance from anywhere (globally accessible)
+
+
+Problem |
+--------+
+
+We can't use a regular constructor because new MyClass() creates a brand new object every single time you call it!
+
+We want to get the already existing object instead of making a new one.
+
+
+Solution |
+---------+
+
+1. Make constructor private \(\rightarrow \) Now nobody can use the new keyword from outside!
+
+2. create a public static method, and that method calls private constructor to create the object
+
+
+
+When to use it |
+---------------+
+
+Use the Singleton pattern when a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
+
+
+Usages |
+-------+
+
+1. Database Connection: Only 1 connection worker exists so your database does not get overwhelmed with too many open links and crash.
+
+2. Logger Service: Only 1 log file worker exists so multiple parts of the app don't lock and crash the text file.
+
+3. Settings Manager: Only 1 settings checker exists so when you change to Dark Mode, the whole app changes together instantly.
+
+4. Cache Manager: Only 1 memory box exists to save data, so the app doesn't have to fetch things from the internet over and over.
+
+5. Thread Pool: Only 1 background task manager exists so your computer doesn't make too many accidental threads and freeze up.
+
+
+
+Task |
+-----+
+
+Design database connetion
+
+
+

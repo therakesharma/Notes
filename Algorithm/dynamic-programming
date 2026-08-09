@@ -1,0 +1,24 @@
+Dynamic Programming
+-------------
+
+difference b/w greedy method and dynamic programming:
+-------------------------------
+
+both are used to solve optimization problem
+optimization problem is those which requires minimum result or maximum result
+
+in greedy method we follow pre defined procesure to get the optimal result. eg: spanning tree problem, dijkstra algorithm etc
+
+but in dyamic programming we tries to find out all possible solution and then pick up the best optimal solution.
+
+mostly dp problem solve by recusion formula (not recusion programming)
+
+------------------
+
+two way we can solve a problem using dp:
+
+1. memoization method - top down approach (using recursion)
+2. tabulation method - bottom down approach (using iteration)
+
+
+

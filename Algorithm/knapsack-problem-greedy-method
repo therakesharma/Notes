@@ -1,0 +1,34 @@
+
+
+knapsack problem:
+-----------------------
+
+
+----------------------------------------------
+| Object  | 01 | 02 | 03 | 04 | 05 | 06 | 07 |
+----------------------------------------------
+| Profit  | 10 | 05 | 15 | 07 | 06 | 18 | 03 |
+----------------------------------------------
+| Weights | 02 | 03 | 05 | 07 | 01 | 04 | 01 |    
+----------------------------------------------
+
+
+u have knapsack (bag) of capacity 15 kg bag
+
+take the Object from above to maximise the profit
+
+ans -> pick the object 1st which have highest profit per kg (profit / wights) -> greedy method for selection
+
+---------------------------------------
+| p/w | 5 | 1.3 | 3 | 1 | 6 | 4.5 | 3 |
+---------------------------------------
+
+greedy method says u decide the method to select item, and then select the item one by one.
+
+
+Note: Objects are also devisible means we have consider fractional items.
+
+
+constraint -> E xi wi <= m (15 kg)
+objective -> max E xi pi
+

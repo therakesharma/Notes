@@ -1,0 +1,12 @@
+
+
+sum of subsets:
+---------------
+
+core idea is here to call the dfs twice, 1st call will including 1st element and 2nd call will excluding 1st element
+
+-----------------|
+
+this question is based on find the subset of an array - backtracking
+
+----------------|

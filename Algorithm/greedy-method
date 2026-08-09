@@ -1,0 +1,50 @@
+
+---------------
+there are three method to solve optimization problems:
+
+1. greedy method
+2. dynamic programming
+3. branch and bound
+
+-------------
+
+
+-------------
+greedy method:
+------------
+
+greedy method -> this is one of the strategy to solving problems
+or design to solve similar problem, problem which is fit in this
+
+
+it used to solve optimazation problem
+
+---------------
+
+what is optimazation problem?
+a problem which demand mamxium or minimum result
+
+
+what is feasible solution?
+a solution which is statisfying the problme condition
+
+what is minimazation problem?
+demand for minimum cost, statisying the objective or the problem either minimum or maxium
+
+what is optimal solution?
+there will only one optimal solution, there can we multiple feasible problem
+
+
+------------
+
+how greedy method work?
+
+problem should be solve in stages, at it stages we will peek a input if input is feasible we will consider that and move forward
+
+
+
+
+
+
+
+
